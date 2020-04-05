@@ -1,0 +1,208 @@
+.App {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+/*
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}*/
+
+.App-link {
+  color: #61dafb;
+}
+
+/*Start of Navbar*/
+
+#logo img{
+  width:10rem;
+}
+
+#navbar {
+  background-color: #000;
+}
+
+#navbar small {
+  margin-left: 1rem;
+}
+
+/*End of Navbar*/
+
+/*Start Login and Register Form*/
+
+.formBG {
+  border: none;
+  float: none;
+  margin: 0 auto;
+  margin-top: 1vh;
+/*  box-shadow: 5px 5px 5px 1px #888888;*/
+}
+
+.formBG h5 {
+  height: 10vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*End Login and Register Form*/
+
+/*Start of Home*/
+
+#landingBG1 {
+  background-image: url("images/hotel_bg1.jpg");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5vh;  
+}
+
+
+#landingBG2 {
+  background-image: url("images/hotel_bg5.jpg");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5vh;  
+}
+
+#logo-home {
+  background-image: url("images/hotel_logo.png");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#homeContent h2{
+  margin: 1rem;
+}
+
+#cardColumns {
+  padding-top: 5vh;
+}
+
+
+#howItWorks i {
+  font-size: 5rem;
+}
+
+#howItWorks .card {
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px 1px #000;
+}
+
+/*End of Home*/
+
+/*Start of Review*/
+#review {
+ /* box-shadow: 1px 1px 10px 3px #888888;*/
+  background-color: #000;
+  color: #fff;
+}
+
+#buttonReview {
+  color: #fff;
+}
+
+#reviewRow{
+  background-color: #000;
+  border-radius: 0;
+}
+
+#reviewRow h2{
+  color: #fff;
+}
+/*End of Review*/
+
+/*Start of Service*/
+
+#servicePage {
+  margin:1rem;
+  box-shadow: 1px 1px 10px 3px #888888;
+}
+
+#serviceCard {
+  color:#fff;
+  text-shadow: 5px 5px 4px #000000;
+}
+
+
+/*End of Service*/
+
+/*Start of Add Service Form*/
+#addItemForm {
+  border-radius: 1rem;
+  float: none;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+#itemCard {
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 5vh;
+}
+
+#itemImage {
+  border-radius: 1rem;
+  margin: 1rem;
+}
+/*End of Add Service Form*/
+
+/*Start of request*/
+
+/*#statusCard {
+  box-shadow: 5px 5px 5px 1px #888888;
+}*/
+
+
+
+
+
+/*Start of Booking*/
+
+#bookingBG {
+  background-image: url("images/hotel_bg2.jpg");
+  padding: 5vh; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+.footer {
+  background-color: #0c0c0c;
+  color: #fff;
+}
+
+
+#headerLogo{
+  height: 50vh;
+  width: 120vh;
+}
+
+
+
+
+
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
